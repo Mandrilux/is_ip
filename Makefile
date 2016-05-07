@@ -5,14 +5,15 @@
 ## Login   <baptiste.heraud@epitech.eu>
 ## 
 ## Started on  Sat May  7 10:04:48 2016 
-## Last update Sat May  7 10:14:26 2016 
+## Last update Sat May  7 10:45:38 2016 
 ##
 
 NAME	:=	is_ip
 
 SRC	:=	main.c \
 		is_ip.c \
-		strtoword.c
+		strtoword.c \
+		free.c
 
 INC_DIR	:=	include
 

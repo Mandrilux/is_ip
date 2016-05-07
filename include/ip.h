@@ -22,4 +22,9 @@ int     wordlen(char *str, char decoup);
 char	*complete_line(char *str, int nb, char decoup);
 char    **small_tab(char *str);
 char    **strtowordtab(char *str, char decoup);
+
+	/* free.c */
+
+int     free_tab(char **tab, int error);
+
 #endif /* IP_H_ */
