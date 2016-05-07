@@ -5,7 +5,7 @@
 ** Login   <baptiste@epitech.net>
 **
 ** Started on  Sat May  7 09:49:05 2016
-** Last update Sat May  7 10:18:11 2016 
+** Last update Sat May  7 10:41:53 2016 
 */
 
 #include "ip.h"
@@ -16,8 +16,15 @@ int	usage(char *name)
 }
 int	main(int ac, char **av)
 {
+  int r;
+
   if (ac != 2)
     return (usage(av[0]));
-  is_ip(av[1]);
+  printf("%s is ip ? = ", av[1]);
+  r = is_ip(av[1]);
+  if (r == 1)
+    printf("True\n");
+  else
+    printf("False\n");
   return (EXIT_SUCCESS);
 }
