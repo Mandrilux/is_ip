@@ -58,7 +58,7 @@ char	**small_tab(char *str)
 
   if ((tab = malloc(2 * sizeof(char *))) == NULL)
     return (NULL);
-  tab[0] = my_strdup(str);
+  tab[0] = strdup(str);
   tab[1] = NULL;
   return (tab);
 }

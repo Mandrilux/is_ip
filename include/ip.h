@@ -5,9 +5,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/************ P O S I X *************/
+
+char *strdup(const char *s);
+
 	/* is_ip.c */
 
 int	is_ip(char *str);
+int     count_elem(char **str);
+int     is_num(char *string);
 
 	/* strtoword.c */
 
