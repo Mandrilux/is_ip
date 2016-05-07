@@ -1,14 +1,15 @@
 /*
-** main.c for  in /home/baptiste/rendu/is_ip
+** main.c for  in /home/baptiste/openbsd/is_ip
 **
 ** Made by
-** Login   <baptiste@epitech.net>
+** Login   <baptiste.heraud@epitech.eu>
 **
 ** Started on  Sat May  7 09:49:05 2016
-** Last update Sat May  7 10:41:53 2016 
+** Last update Sat May  7 10:50:56 2016 
 */
 
 #include "ip.h"
+
 int	usage(char *name)
 {
   printf("%s usage : [IP]\n", name);

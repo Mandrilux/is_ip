@@ -1,11 +1,11 @@
 ##
-## Makefile for  in /home/baptiste/rendu/is_ip
+## Makefile for  in /home/baptiste/openbsd/is_ip
 ## 
 ## Made by 
 ## Login   <baptiste.heraud@epitech.eu>
 ## 
 ## Started on  Sat May  7 10:04:48 2016 
-## Last update Sat May  7 10:45:38 2016 
+## Last update Sat May  7 10:50:04 2016 
 ##
 
 NAME	:=	is_ip
